@@ -375,3 +375,127 @@ a {
 .features .card:nth-child(3) .desc {
     max-width: 224px;
 }
+
+/*======== Popular ========*/
+.popular {
+    margin-top: 130px;
+}
+
+.popular .blog-top .label {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.popular .blog-top .title {
+    margin-top: 18px;
+    color: #0d1111;
+    font-size: 4.2rem;
+    font-weight: 700;
+}
+
+.popular .blog-top .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular .row .desc {
+    margin-top: 19px;
+    max-width: 525px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    line-height: 1.78;
+}
+
+.popular .row .action {
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.popular .blog-bot {
+    margin-top: 79px;
+    display: flex;
+    gap: 47px;
+}
+
+.popular .card {
+    position: relative;
+    border-radius: 8px;
+    height: 517px;
+}
+
+.popular .card img {
+    max-width: 359px;
+    max-height: 393px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.popular .card img:hover {
+    opacity: 0.35;
+    background: #d0efed;
+}
+
+.popular .card .block {
+    position: absolute;
+    width: 325px;
+    bottom: 0;
+    margin: 0 17px;
+    padding: 18px 25px 29px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 16px 90px 0 rgba(0, 0, 0, 0.05);
+}
+
+.popular .block .sub-title {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+    padding-bottom: 11px;
+}
+
+.popular .block .cost {
+    display: inline-block;
+    margin-top: 16px;
+    color: #767e7e;
+    font-size: 1.6rem;
+    padding-bottom: 11px;
+}
+
+.popular .block .cost span {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.popular .block .desc {
+    margin: 6px 0 18px;
+    color: #9da6a5;
+    font-size: 1.4rem;
+    padding-bottom: 7px;
+}
+
+.popular .block .row {
+    display: flex;
+}
+
+.popular .block .row .label {
+    display: flex;
+    align-items: center;
+    color: #9da6a5;
+    font-size: 1.4rem;
+    margin-right: 10px;
+}
+
+.popular .block .row .label::before {
+    display: inline-block;
+    content: "";
+    margin-right: 10px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--primary-color);
+}
