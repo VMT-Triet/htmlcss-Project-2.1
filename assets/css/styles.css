@@ -302,3 +302,76 @@ a {
 .hero .blog-right-media .avatar:last-child {
     background: #1ebfc1;
 }
+
+/*======== Features ========*/
+.features .blog-top .label {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.features .blog-top .title {
+    margin-top: 18px;
+    max-width: 577px;
+    color: #0d1111;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 1.33;
+}
+
+.features .blog-top .desc {
+    margin-top: 18px;
+    max-width: 590px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    line-height: 1.4;
+}
+
+.features .blog-bot {
+    margin-top: 80px;
+    display: flex;
+}
+
+.features .blog-bot .card {
+    display: flex;
+    flex-direction: column;
+}
+
+.features .card:nth-child(2) {
+    margin-left: 209px;
+}
+
+.features .card:nth-child(3) {
+    margin-left: 200px;
+}
+
+.features .card a:hover {
+    opacity: 0.9;
+}
+
+.features .card img {
+    width: 102px;
+    height: 106px;
+}
+
+.features .card .label {
+    margin-top: 26px;
+    color: #0d1111;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.features .card .desc {
+    margin-top: 16px;
+    max-width: 168px;
+    color: #9da6a5;
+    line-height: 1.69;
+}
+
+.features .card:nth-child(2) .desc {
+    max-width: 223px;
+}
+
+.features .card:nth-child(3) .desc {
+    max-width: 224px;
+}
