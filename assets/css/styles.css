@@ -538,3 +538,127 @@ a {
     text-align: center;
     font-size: 1.8rem;
 }
+
+/*======== Feedback ========*/
+.feedback {
+    padding: 30px 0;
+    margin-top: 204px;
+}
+
+.feedback .body {
+    display: flex;
+    align-items: center;
+}
+
+.feedback-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback-left .quote {
+    margin-top: 0;
+    margin-left: 0;
+    width: 36px;
+    height: 29px;
+}
+
+.feedback-left .desc {
+    margin-top: 27px;
+    max-width: 419px;
+    color: #5d6564;
+    font-size: 3.2rem;
+    line-height: 1.5;
+}
+
+.feedback-left .name {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 33px;
+    color: #070707;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.feedback-left .name::before {
+    content: "";
+    margin-right: 5px;
+    display: inline-block;
+    width: 8px;
+    height: 2px;
+    background: #070707;
+}
+
+.feedback-left .name span {
+    color: #767e7e;
+    font-weight: 400;
+}
+
+.feedback-left .button {
+    margin-top: 52px;
+}
+
+.feedback-left .icon {
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--primary-color);
+}
+
+.feedback-left .icon:hover {
+    opacity: 0.7;
+}
+
+.feedback-left .icon + .icon {
+    margin-left: 30px;
+}
+
+.feedback-right {
+    width: 65%;
+    height: 481px;
+    position: relative;
+}
+
+.feedback-right img {
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.feedback-right .avatar-top img {
+    width: 92px;
+    height: 92px;
+    top: 0;
+    left: 144px;
+}
+
+.feedback-right .avatar-right img {
+    width: 110px;
+    height: 110px;
+    top: 19px;
+    right: 0;
+}
+
+.feedback-right .avatar-center img {
+    width: 235px;
+    height: 235px;
+    top: 107px;
+    right: 171px;
+}
+
+.feedback-right .avatar-left img {
+    left: 0;
+    bottom: 145px;
+}
+
+.feedback-right .avatar-bottom img {
+    bottom: 0;
+    left: 212px;
+}
+
+.feedback-right .avatar-bottom-right img {
+    bottom: 29px;
+    right: 32px;
+}
