@@ -46,6 +46,13 @@ a {
 /*======== Header ========*/
 .header {
     padding-top: 40px;
+    background: #fff;
+}
+
+.fixheader {
+    position: sticky;
+    top: -42px;
+    z-index: 1;
 }
 
 .header .body {
