@@ -505,3 +505,36 @@ a {
     border-radius: 50%;
     background: var(--primary-color);
 }
+
+/*======== Data ========*/
+.data {
+    padding: 30px 0;
+    margin-top: 205px;
+}
+
+.data-list {
+    width: 862px;
+    display: flex;
+    gap: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.data-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.data-item .number {
+    color: #0d1111;
+    text-align: center;
+    font-size: 6.2rem;
+    font-weight: 700;
+}
+
+.data-item .label {
+    margin-top: 11px;
+    color: #767e7e;
+    text-align: center;
+    font-size: 1.8rem;
+}
