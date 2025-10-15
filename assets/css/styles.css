@@ -383,7 +383,8 @@ a {
 
 /*======== Popular ========*/
 .popular {
-    margin-top: 130px;
+    padding: 30px 0;
+    margin-top: 70px;
 }
 
 .popular .blog-top .label {
